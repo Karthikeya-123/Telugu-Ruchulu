@@ -1,0 +1,114 @@
+body{
+    gap: 0;
+}
+.header{
+    background-color: rgb(59, 12, 59);
+    color: antiquewhite;
+    font-family: "Caveat", serif;
+    text-align: center;
+    margin-bottom: 0%;
+}
+.english{
+    font-weight: 20px;
+    font-size: 30px;
+}
+.headding{
+    display: flex;
+    align-items: center;
+    padding-left: 45%;
+    background-color: darkslategrey;
+    color: wheat;
+    font-family: "Caveat", serif;
+    text-align: center;
+    margin-bottom: 0%;
+}
+.items{
+    background-image: url(../../pics/maya-bazaar[1].jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.items,ul,li{
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    background-repeat: no-repeat;
+    padding-left: 80px;
+}
+#karjikayalu{
+    background-image: url(../../pics/karjikayalu.jpeg);
+    background-size: cover;
+    padding: 70px;
+    margin-right:70px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}    
+#arisa{
+    background-image: url(../../pics/arisa.jpg);
+    background-size: cover;
+    padding: 70px;
+    margin-right:100px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+#laddu{
+    background-image: url(../../pics/laddu.jpg);
+    background-size: cover;
+    padding: 70px;
+    margin-right:100px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+#rava_laddu{
+    background-image: url(../../pics/ravaladdu.jpg);
+    background-size: cover;
+    padding: 70px;
+    margin-right:100px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+#sunnunda{
+    background-image: url(../../pics/sunnunda.jpeg);
+    background-size: cover;
+    padding: 70px;
+    margin-right:100px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+#gavvalu{
+    background-image: url(../../pics/gavvalu.jpeg);
+    background-size: cover;
+    padding: 70px;
+    margin-right:100px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: "Caveat", serif;
+    background: white;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px;
+}
+a:hover{
+    background-color: rgb(190, 186, 186);
+}
+span{
+    font-size: 26px;
+}
+.btn{
+    margin-left: 50%;
+}
+button{
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background: none;
+}

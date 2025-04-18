@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/sweets/sunnunda.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <h2 class="english">Telugu Ruchulu</h2>
+        <h2>తెలుగు రుచులు</h2>
+    </div>
+    <div class="headding">
+        <h3 class="english">Sunnundalu/</h3>
+        <h2>సున్నుండలు </h2>
+        <a href="../../menue/sweets.html" class="btn"><button class="H">Home Page</button></a>
+    </div>
+    <button class="flip-button" onclick="flipcard()">Click to change the language<br>తెలుగు కోసం క్లిక్ చేయండి</button>
+    <div class="container">
+        <div class="card" id="card">
+            <div class="front">
+                <div class="ingrediants">
+                    <h2>Ingredients:</h2>
+                    <ul>
+                        <li>1 cup urad dal (black gram, skinned)</li>
+                        <li>3/4 cup powdered jaggery or sugar</li>
+                        <li>1/4 cup ghee (melted, as needed)</li>
+                        <li>1/2 tsp cardamom powder</li>
+                        <li>2 tbsp chopped nuts (cashews, almonds - optional)</li>
+                    </ul>
+                    <img src="../../pics/sunnunda.jpeg" alt="">
+                </div>
+                <div class="process">
+                    <h2>Instructions:</h2>
+                    <ol>
+                        <li><h3>Roast the urad dal –</h3>Dry roast urad dal on low flame until it turns golden and aromatic. Let it cool completely.
+                        </li>
+                        <li><h3>Grind to a fine powder –</h3>Blend the roasted urad dal into a fine powder.</li>
+                        <li><h3>Mix with sugar & cardamom –</h3>Add powdered jaggery or sugar and cardamom powder to the ground dal. Mix well.
+                        </li>
+                        <li><h3>Add ghee & nuts –</h3>Warm the ghee, mix it into the flour gradually, and add chopped nuts if using.
+                        </li>
+                        <li><h3>Shape laddus –</h3>Take small portions and roll into round laddus while the mixture is still warm. Let them set before storing.</li>
+                        <li><h3></h3></li>
+                    </ol>
+                </div>
+                <div class="box">
+                    <input class="search" value="For soft and aromatic Sunnunda, roast the urad dal on low flame until golden and let it cool before grinding.">
+                    <button>Tip</button>
+                </div>
+            </div>
+            <div class="back">
+                <div class="ingrediants">
+                    <h2> కావలసినవిః</h2>
+                    <ul>
+                        <li>1 కప్పు ఉడకబెట్టిన పెసరపప్పు (సన్నగా తరిగినది)</li>
+                        <li>3/4 కప్పు పొడి బెల్లం లేదా చక్కెర</li>
+                        <li>1/4 కప్పు నెయ్యి (అవసరమైతే)</li>
+                        <li>1/2 టీస్పూన్ జీడిపప్పు పొడి</li>
+                        <li>2 టేబుల్ స్పూన్లు తరిగిన కాయలు (జీడిపప్పు, బాదం-ఐచ్ఛికం)</li>
+                    </ul>
+                    <img src="../../pics/sunnunda.jpeg" alt="">
+                </div>
+                <div class="process">
+                    <ol>
+                        <li><h3>ఉడికించిన పప్పు-</h3>ఉడికించిన పప్పు చిన్న మంట మీద బంగారు రంగులోకి మారే వరకు వేయించాలి.  పూర్తిగా చల్లబరచడానికి అనుమతించండి.</li>
+                        <li>ఉడికించిన జీడిపప్పును మిక్సీలో వేసి మెత్తగా పేస్ట్ చేయాలి.</li>
+                        <li><h3>చక్కెర మరియు ఏలకులను కలపండి-</h3>పొడి బెల్లం లేదా చక్కెర మరియు ఏలకుల పొడిని వేయించిన పప్పుకు జోడించండి.  బాగా కలపండి.</li>
+                        <li><h3>నెయ్యి మరియు గింజలను జోడించండి-</h3>నెయ్యిని వేడి చేసి, క్రమంగా పిండిలో కలపండి మరియు ఉపయోగిస్తే తరిగిన గింజలను జోడించండి.</li>
+                        <li><h3> లడ్డు ఆకారం-</h3>మిశ్రమం వేడిగా ఉండగానే చిన్న భాగాలు తీసుకొని గుండ్రని లడ్డు లోకి చుట్టండి.  నిల్వ చేసే ముందు వాటిని అమర్చనివ్వండి.</li>
+                    </ol>
+                </div>
+                <div class="box">
+                    <input class="tel_search" value="ఉడికించిన పప్పు బంగారు రంగు వచ్చే వరకు తక్కువ మంట మీద వేయించి, రుబ్బడానికి ముందు చల్లబరచండి.">
+                    <button>చిట్కా</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function flipcard(){
+            document.getElementById("card").classList.toggle('flipped');
+        }
+    </script>
+</body>
+</html>

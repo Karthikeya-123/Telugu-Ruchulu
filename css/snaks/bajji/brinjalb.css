@@ -1,0 +1,145 @@
+.header{
+    background-color: rgb(59, 12, 59);
+    color: antiquewhite;
+    font-family: "Caveat", serif;
+    text-align: center;
+    margin-bottom: 0%;
+}
+.english{
+    font-weight: 20px;
+    font-size: 30px;
+}
+.headding{
+    display: flex;
+    align-items: center;
+    padding-left: 40%;
+    background-color: darkslategrey;
+    color: wheat;
+    font-family: "Caveat", serif;
+    text-align: center;
+    margin-bottom: 0%;
+}
+.H{
+  background-color: rgb(42, 234, 170);
+  padding: 5px;
+  margin-left:270px;
+  border-radius: 10px;
+  color: black;
+
+}
+a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+}
+.ingrediants{
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+    margin-top: 40px;
+    font-family:sans-serif;
+    font-size: 20px;
+}
+img{
+    height: 250px;
+    width: 250px;
+    margin-left: 5%;
+    border-radius: 20px;
+}
+.process{
+    margin-left: 200px;
+    font-family:sans-serif;
+    font-size: 20px;
+}
+.side{
+    font-family:sans-serif;
+    font-size: 20px;
+    margin-left: 80px;
+}
+.container{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    perspective: 1000px;
+}
+.card{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.6s;
+    cursor: pointer;
+}
+.flipped{
+    transform: rotateY(180deg);
+}
+.front,.back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility:hidden;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.back{
+    transform: rotateY(180deg);
+}
+.flip-button{
+    margin-top: 20px;
+    margin-right: 80%;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff5722;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.flip-button:hover{
+    background-color: #e64a19;
+}
+.box{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    background:black;
+    height:50px;
+    border-radius: 50px;
+    margin-top: 2%;
+    margin-left: 13%;
+}
+.search,.tel_search{
+    outline: none;
+    background: none;
+    border: none;
+    float: left;
+    padding-left: 10px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-size: 18px;
+    transition: 1s;
+    width:0px;
+}
+button{
+    border: none;
+    background: none;
+    font-size: 18px;
+    float: right;
+    color:white;
+    cursor: pointer;
+    border-radius: 50px;
+    padding: 20px;
+    outline: none;
+}
+.box:hover> .search{
+    width: 650px;
+    padding-right: 20px;
+}
+.box:hover> .tel_search{
+    width: 850px;
+    padding-right: 20px;
+}

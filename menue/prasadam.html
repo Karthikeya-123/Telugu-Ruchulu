@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/items/prasadam.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <h2 class="english">Telugu Ruchulu</h2>
+        <h2>తెలుగు రుచులు</h2>
+    </div>
+    <div class="headding">
+        <h3 class="english">Sweets/</h3>
+        <h2>స్వీట్లు</h2>
+        <a href="menu.html" class="btn"><button>Home Page</button></a>
+    </div>
+    <div class="items">
+        <ul>
+            <li>
+                <div class="halwa">
+                    <h2>Halwa / హల్వా</h2>
+                    <select id="dropdown" onchange="halwa(this)">
+                        <option value="type">Type of halwa / హల్వా</option>
+                        <option value="../recipes/prasadams/halwa/badamh.html">Badam Halwa/బాదం హల్వా</option>
+                        <option value="../recipes/prasadams/halwa/carroth.html">Carrot Halwa/క్యారెట్ హల్వా</option>
+                        <option value="../recipes/prasadams/halwa/pineappleh.html">Pinaple Halwa/పైనాపిల్ హల్వా</option>
+                    </select>
+                </div>
+            </li>
+            <li>
+                <div class="holiga">
+                    <h2>Holiga / హోలిగ</h2>
+                    <select id="dropdown" onchange="holiga(this)">
+                        <option value="type">Type of Holiga / హోలిగ</option>
+                        <option value="../recipes/prasadams/holiga/dryfruitsh.html">Dryfruits Holiga/డ్రై ఫ్రూట్స్ హోలిగ</option>
+                        <option value="../recipes/prasadams/holiga/kovah.html">Kova Koliga/కోవా హోలిగ</option>
+                        <option value="../recipes/prasadams/holiga/jagaryh.html">Jagary Holiga/బెల్లం హోలిగ</option>
+                    </select>
+                </div>
+            </li>
+            <li>
+                <div class="payasam">
+                    <h2>Payasam/పాయసం</h2>
+                    <select id="dropdown" onchange="payasam(this)">
+                        <option value="type">Type of payasam/పాయసం</option>
+                        <option value="../recipes/prasadams/payasam/bellamp.html">Jagary Payasam/బెల్లం పాయసం</option>
+                        <option value="../recipes/prasadams/payasam/sabondap.html">Sabonda Payasam/సగ్గుబియ్యం పాయసం</option>
+                        <option value="../recipes/prasadams/payasam/semiyap.html">Semiya Payasam/సేమియా పాయసం</option>
+                    </select>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <script>
+        function halwa(select){
+            let url=select.value;
+            if(url){
+                window.location.href=url;
+            }
+        }
+        function holiga(select){
+            let url=select.value;
+            if(url){
+                window.location.href=url;
+            }
+        }
+        function payasam(select){
+            let url=select.value;
+            if(url){
+                window.location.href=url;
+            }
+        }
+    </script>
+</body>
+</html>

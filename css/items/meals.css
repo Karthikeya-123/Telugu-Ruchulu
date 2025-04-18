@@ -1,0 +1,76 @@
+.header{
+    background-color: rgb(59, 12, 59);
+    color: antiquewhite;
+    font-family: "Caveat", serif;
+    text-align: center;
+    margin-bottom: 0%;
+}
+.english{
+    font-weight: 20px;
+    font-size: 30px;
+}
+.headding{
+    display: flex;
+    align-items: center;
+    padding-left: 45%;
+    background-color: darkslategrey;
+    color: wheat;
+    font-family: "Caveat", serif;
+    text-align: center;
+    margin-bottom: 0%;
+}
+.btn{
+    margin-left: 50%;
+}
+button{
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background: white;
+    padding: 20px;
+}
+.items,ul,li{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-left:10px;
+    color: white;
+}
+.items{
+    background-image: url(../../pics/mayabajar.png);
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+}
+.pappu{
+    background-image:url(../../pics/pappu.jpeg);
+    background-size: cover;
+    padding: 50px;
+    text-align: center;
+}
+.rasam{
+    background-image:url(../../pics/rasam.jpeg);
+    background-size: cover;
+    padding: 50px;
+    text-align: center;
+}
+.sambar{
+    background-image:url(../../pics/sambar.jpg);
+    background-size: cover;
+    padding:50px;
+    text-align: center;
+}
+#dropdown{
+    background-color: whitesmoke;
+    outline: none;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 17px;
+}
+option{
+    padding: 10px;
+    background-color: rgb(236, 252, 246);
+    color: #333;
+    font-size: 17px;
+    border-radius: 20px;
+}

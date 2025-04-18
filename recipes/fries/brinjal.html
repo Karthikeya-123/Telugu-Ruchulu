@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/fries/brimjal.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <h2 class="english">Telugu Ruchulu</h2>
+        <h2>తెలుగు రుచులు</h2>
+    </div>
+    <div class="headding">
+        <h3 class="english">Brinjal/</h3>
+        <h2>వంకాయ</h2>
+        <a href="../../menue/fries.html" class="btn"><button class="H">Home Page</button></a>
+    </div>
+    <button class="flip-button" onclick="flipcard()">Click to change the language<br>తెలుగు కోసం క్లిక్ చేయండి</button>
+    <div class="container">
+        <div class="card" id="card">
+            <div class="front">
+                <div class="ingrediants">
+                    <h2>Ingredients:</h2>
+                    <ul>
+                        <li>2 medium-sized brinjals (eggplants), sliced</li>
+                        <li>2 tbsp oil</li>
+                        <li>½ tsp mustard seeds (optional)</li>
+                        <li>½ tsp turmeric powder</li>
+                        <li>1 tsp red chili powder (adjust to taste)</li>
+                        <li>½ tsp cumin powder (optional)</li>
+                        <li>Salt to taste</li>
+                        <li>Curry leaves or coriander leaves (for garnish, optional)</li>
+                    </ul>
+                    <img src="../../pics/brinjal.jpeg" alt="">
+                </div>
+                <div class="process">
+                    <h2>Instructions:</h2>
+                    <ol>
+                        <li>1. Heat oil in a pan on medium heat. Add mustard seeds (if using) and let them splutter.
+                        </li>
+                        <li>Add sliced brinjals and stir well. Cook on low-medium heat, stirring occasionally</li>
+                        <li>Add turmeric, chili powder, cumin powder, and salt. Mix well to coat the brinjals evenly.</li>
+                        <li>Cook uncovered for 8-10 minutes until the brinjals become soft and slightly crispy. Stir occasionally.</li>
+                        <li>5. Garnish with curry leaves or coriander and serve hot!
+                        </li>
+                    </ol>
+                </div>
+                <div class="box">
+                    <input class="search" value="For a crispy texture, sprinkle a little rice flour over the brinjal slices before frying.">
+                    <button>Tip</button>
+                </div>
+            </div>
+            <div class="back">
+                <div class="ingrediants">
+                    <h2> కావలసినవిః</h2>
+                    <ul>
+                        <li>2 మధ్య తరహా వంకాయలు</li>
+                        <li> 2 టేబుల్ స్పూన్లు నూనె</li>
+                        <li>½ స్పూన్ ఆవాలు (ఐచ్ఛికం)</li>
+                        <li>½ స్పూన్ పసుపు పొడి</li>
+                        <li>1 స్పూన్ ఎర్ర మిరప పొడి (రుచికి సర్దుబాటు చేయండి) </li>
+                        <li>½ స్పూన్ జీలకర్ర పొడి (ఐచ్ఛికం) </li>
+                        <li>రుచికి ఉప్పు</li>
+                        <li>కరివేపాకు లేదా కొత్తిమీర ఆకులు (అలంకరణ కోసం, ఐచ్ఛికం)</li>
+                    </ul>
+                    <img src="../../pics/brinjal.jpeg" alt="">
+                </div>
+                <div class="process">
+                    <ol>
+                        <li>మీడియం వేడి మీద బాణలిలో నూనె వేడి చేయండి. ఆవాలు వేసి (ఉపయోగిస్తే) మరియు వాటిని చిందరవందరగా ఉంచండి</li>
+                        <li>వంకాయ ముక్కలు వేసి బాగా కలపాలి. తక్కువ-మీడియం వేడి మీద ఉడికించాలి, అప్పుడప్పుడు కదిలించు</li>
+                        <li>.పసుపు, కారం, జీలకర్ర, ఉప్పు వేసి కలపాలి. వంకాయలను సమానంగా కోట్ చేయడానికి బాగా కలపండి</li>
+                        <li>వంకాయలు మెత్తగా మరియు కొద్దిగా క్రిస్పీగా మారే వరకు 8-10 నిమిషాలు మూత లేకుండా ఉడికించాలి. అప్పుడప్పుడు కదిలించు.</li>
+                        <li>కరివేపాకు లేదా కొత్తిమీరతో గార్నిష్ చేసి వేడిగా సర్వ్ చేయండి!</li>
+                    </ol>
+                </div>
+                <div class="box">
+                    <input class="tel_search" value="మంచిగా పెళుసైన ఆకృతి కోసం, వేయించడానికి ముందు వంకాయ ముక్కలపై కొద్దిగా బియ్యం పిండి లేదా శనగ పిండి చల్లుకోండి.">
+                    <button>చిట్కా</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function flipcard(){
+            document.getElementById("card").classList.toggle('flipped');
+        }
+    </script>
+</body>
+</html>

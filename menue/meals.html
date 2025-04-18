@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/items/meals.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <h2 class="english">Telugu Ruchulu</h2>
+        <h2>తెలుగు రుచులు</h2>
+    </div>
+    <div class="headding">
+        <h3 class="english">Curres/</h3>
+        <h2>కూరలు</h2>
+        <a href="menu.html" class="btn"><button>Home Page</button></a>
+    </div>
+    <div class="items">
+        <ul>
+           <li>
+            <div class="pappu">
+                <h2>Pappu/పప్పు</h2>
+                  <select id="dropdown" onchange="pappu(this)">
+                    <option value="pappu_types">Typs of pappu  /  పప్పు</option>
+                    <option value="../recipes/meals/pappu/mago.html">Mango pappu/మామిడికాయ పప్పు</option>
+                    <option value="../recipes/meals/pappu/spinach.html">spinach pappu/పాలకూర పప్పు</option>
+                    <option value="../recipes/meals/pappu/tomato.html">tomato pappu/టమాటో పప్పు</option>
+                 </select>
+            </div>
+            </li>
+            <li>
+                <div class="rasam">
+                    <h2>Rasam/రసం</h2>
+                    <select id="dropdown" onchange="rasam(this)">
+                        <option value="rasam_types">Rasam Types  /  రసం</option>
+                        <option value="../recipes/meals/rasam/pappur.html">Papu Rasam/పప్పుచారు</option>
+                        <option value="../recipes/meals/rasam/pepperr.html">Pepper Rasam/మిరియాల రసం</option>
+                        <option value="../recipes/meals/rasam/tomator.html">tomato Rasam/టమాట రసం</option>
+                    </select>
+                </div>
+            </li>
+            <li>
+                <div class="sambar">
+                    <h2>Sambar సాంబారు</h2>
+                    <select id="dropdown" onchange="sambar(this)">
+                        <option value="sambar_type">Sambar Typs  /  సాంబారు</option>
+                        <option value="../recipes/meals/sambar/drumstick.html">Drumstick/మునక్కాయ</option>
+                        <option value="../recipes/meals/sambar/radish.html">Radish/ముల్లంగి</option>
+                        <option value="../recipes/meals/sambar/mix.html">Mix Vegitables మిక్స్ వెజిటబుల్</option>
+                    </select>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <script>
+        function sambar(select){
+            let url=select.value;
+            if(url){
+                window.location.href=url;
+            }
+        }
+        function rasam(select){
+            let url=select.value;
+            if(url){
+                window.location.href=url;
+            }
+        }
+        function pappu(select){
+            let url=select.value;
+            if(url){
+                window.location.href=url;
+            }
+        }
+    </script>
+</body>
+</html>

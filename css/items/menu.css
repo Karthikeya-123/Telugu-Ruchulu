@@ -1,0 +1,132 @@
+.header{
+    background-color: rgb(59, 12, 59);
+    color: antiquewhite;
+    font-family: "Caveat", serif;
+    text-align: center;
+}
+.english{
+
+    font-weight: 20px;
+    font-size: 30px;
+}
+@keyframes backgroundScroll{
+     0%{background-image: url(../../pics/maya-bazaar[1].jpg);}
+     33%{background-image: url(../../pics/mayabajar.jpeg); }
+     66%{background-image: url(../../pics/mayabajar.png);  }
+     100%{background-image: url(../../pics/maya-bazaar[1].jpg); }
+     
+}
+.area{
+   width: 100%;
+   height: 100vh;
+   background-size: cover;
+   background-position: center;
+   animation: backgroundScroll 15s infinite linear;
+  
+}
+.cards{
+    background-color: white;
+}
+.box{
+    align-items: center;
+}
+.box{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    background:black;
+    height:50px;
+    border-radius: 50px;
+}
+.search{
+    outline: none;
+    background: none;
+    border: none;
+    padding: 10px;
+    border-radius: 50px;
+    color: white;
+    font-size: 18px;
+    width:200px;
+}
+button{
+    border: none;
+    background: none;
+    font-size: 18px;
+    color:white;
+    cursor: pointer;
+    border-radius: 50px;
+    padding: 20px;
+    outline: none;
+}
+.items,ul,li{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    padding-top: 7%;
+    margin-left: 17px;
+    margin-bottom: 40px;
+    border-radius: 5%;
+}
+#tifnes{
+    background-image: url(../../pics/tifens.jpeg);
+    background-size: cover;
+    padding: 70px;
+    margin-right: 50px;
+}
+#meals{
+    background-image: url(../../pics/meals.jpg);
+    background-size: cover;
+    padding: 70px;
+    margin-right: 50px;
+}
+#pickles{
+    background-image: url(../../pics/pickles.jpg);
+    background-size: cover;
+    padding: 70px;
+    margin-right: 50px;
+}
+#chutnys{
+    background-image: url(../../pics/chutnes.jpg);
+    background-size: cover;
+    padding: 70px;
+    margin-right: 50px;
+}
+#Fries{
+    background-image: url(../../pics/fries.jpg);
+    background-size: cover;
+    padding: 70px;
+    margin-right: 50px;
+}
+#snaks{
+    background-image: url(../../pics/snaks.jpg);
+    background-size: cover;
+    padding: 70px;
+    margin-right: 50px;
+}
+#sweets{
+    background-image: url(../../pics/sweets.jpg);
+    background-size: cover;
+    padding: 70px;
+    margin-right: 50px;
+}
+#prasadams{
+    background-image: url(../../pics/prasadam.jpg);
+    background-size: cover;
+    padding: 70px;
+    margin-right: 50px;  
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: "Caveat", serif;
+    background: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+a:hover{
+    background-color: rgb(190, 186, 186);
+}
+span{
+    font-size: 26px;
+}

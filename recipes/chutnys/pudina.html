@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/chutnys/pudina.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <h2 class="english">Telugu Ruchulu</h2>
+        <h2>తెలుగు రుచులు</h2>
+    </div>
+    <div class="headding">
+        <h3 class="english">PudinaChutny/</h3>
+        <h2>పుదీనాచట్నీ</h2>
+        <a href="../../menue/chutnys.html" class="btn"><button class="H">Home Page</button></a>
+    </div>
+    <button class="flip-button" onclick="flipcard()">Click to change the language<br>తెలుగు కోసం క్లిక్ చేయండి</button>
+    <div class="container">
+        <div class="card" id="card">
+            <div class="front">
+                <div class="ingrediants">
+                    <h2>Ingredients:</h2>
+                    <ul>
+                        <li>1 cup fresh mint leaves (pudina)</li>
+                        <li>½ cup coriander leaves</li>
+                        <li>1 green chili (adjust to taste)</li>
+                        <li>1-inch ginger</li>
+                        <li>2 tbsp curd (optional, for creaminess)</li>
+                        <li>1 tbsp lemon juice</li>
+                        <li>½ tsp cumin powder</li>
+                        <li>Salt to taste</li>
+                        <li>Water as needed
+                    </ul>
+                    <img src="../../pics/pudina.jpg" alt="">
+                </div>
+                <div class="process">
+                    <h2>Instructions:</h2>
+                    <ol>
+                        <li>Wash and prep the mint and coriander leaves properly.</li>
+                        <li>Blend all ingredients—mint, coriander, green chili, ginger, curd, lemon juice, cumin powder, and salt—into a smooth paste.</li>
+                        <li>3. Add water gradually to get the desired consistency.
+                        </li>
+                        <li>Taste and adjust seasoning if needed, adding more salt or lemon juice.</li>
+                        <li>Serve with snacks like pakoras, samosas, or as a spread for sandwiches.</li>
+                    </ol>
+                </div>
+                <div class="box">
+                    <input class="search" value="To retain the bright green color, add a few ice cubes while blending ">
+                    <button>Tip</button>
+                </div>
+            </div>
+            <div class="back">
+                <div class="ingrediants">
+                    <h2> కావలసినవిః</h2>
+                    <ul>
+                        <li>1 కప్పు తాజా పుదీనా ఆకులు (పుదీనా) </li>
+                        <li> ½ కప్పు కొత్తిమీర ఆకులు</li>
+                        <li>1 పచ్చి మిరపకాయ (రుచికి సర్దుబాటు చేయండి) </li>
+                        <li>1-అంగుళాల అల్లం </li>
+                        <li>2 టేబుల్ స్పూన్లు పెరుగు (ఐచ్ఛికం, క్రీమ్ కోసం)</li>
+                        <li>1 టేబుల్ స్పూన్ నిమ్మరసం</li>
+                        <li>½ స్పూన్ జీలకర్ర పొడి </li>
+                        <li>రుచికి ఉప్పు అవసరమైనంత నీరు</li>
+                    </ul>
+                    <img src="../../pics/pudina.jpg" alt="">
+                </div>
+                <div class="process">
+                    <ol>
+                        <li>.పుదీనా మరియు కొత్తిమీర ఆకులను సరిగ్గా కడిగి సిద్ధం చేయండి.</li>
+                        <li>పుదీనా, కొత్తిమీర, పచ్చిమిర్చి, అల్లం, పెరుగు, నిమ్మరసం, జీలకర్ర పొడి మరియు ఉప్పు-అన్ని పదార్థాలను మెత్తని పేస్ట్‌లో కలపండి</li>
+                        <li>.కావలసిన స్థిరత్వాన్ని పొందడానికి క్రమంగా నీటిని జోడించండి</li>
+                        <li>అవసరమైతే మసాలాను రుచి మరియు సర్దుబాటు చేయండి, ఎక్కువ ఉప్పు లేదా నిమ్మరసం జోడించండి</li>
+                        <li>పకోరాలు, సమోసాలు లేదా శాండ్‌విచ్‌ల వంటి స్నాక్స్‌తో సర్వ్ చేయండి </li>
+                    </ol>
+                </div>
+                <div class="box">
+                    <input class="tel_search" value="ప్రకాశవంతమైన ఆకుపచ్చ రంగును నిలుపుకోవడానికి బ్లెండింగ్ చేసేటప్పుడు కొన్ని ఐస్ క్యూబ్స్ జోడించండి ">
+                    <button>చిట్కా</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function flipcard(){
+            document.getElementById("card").classList.toggle('flipped');
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/fries/dondakay.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <h2 class="english">Telugu Ruchulu</h2>
+        <h2>తెలుగు రుచులు</h2>
+    </div>
+    <div class="headding">
+        <h3 class="english">Ivygourd / </h3>
+        <h2> దొండకాయ</h2>
+        <a href="../../menue/fries.html" class="btn"><button class="H">Home Page</button></a>
+    </div>
+    <button class="flip-button" onclick="flipcard()">Click to change the language<br>తెలుగు కోసం క్లిక్ చేయండి</button>
+    <div class="container">
+        <div class="card" id="card">
+            <div class="front">
+                <div class="ingrediants">
+                    <h2>Ingredients:</h2>
+                    <ul>
+                            <li>250g dondakaya (ivy gourd), sliced thinly</li>
+                            <li>2 tbsp oil</li>
+                            <li>½ tsp mustard seeds (optional)</li>
+                            <li>½ tsp turmeric powder</li>
+                            <li>1 tsp red chili powder</li>
+                            <li>½ tsp cumin powder</li>
+                            <li>Salt to taste</li>
+                            <li>2 tbsp grated coconut (optional, for extra flavor)</li>
+                            <li>Curry leaves or coriander leaves (for garnish, optional)</li>
+                    </ul>
+                    <img src="../../pics/dondakay.jpg" alt="">
+                </div>
+                <div class="process">
+                    <h2>Instructions:</h2>
+                    <ol>
+                        <li>Heat oil in a pan on medium heat. Add mustard seeds (if using) and let them splutter.</li>
+                        <li>2. Add sliced dondakaya and sauté for 3-4 minutes, stirring occasionally.
+                        </li>
+                        <li>Add turmeric, chili powder, cumin powder, and salt. Mix well so the spices coat the dondakaya evenly.</li>
+                        <li>Cook on low-medium heat for 12-15 minutes, stirring occasionally, until it turns crispy and golden.</li>
+                        <li>Garnish with grated coconut or coriander leaves and serve hot!</li>
+                    </ol>
+                </div>
+                <div class="box">
+                    <input class="search" value="For extra crispiness, fry on low heat without covering the pan and stir occasionally to avoid burning">
+                    <button>Tip</button>
+                </div>
+            </div>
+            <div class="back">
+                <div class="ingrediants">
+                    <h2> కావలసినవిః</h2>
+                    <ul>
+                        <li>250గ్రా దొండకాయ సన్నగా కోయాలి </li>
+                        <li>2 టేబుల్ స్పూన్లు నూనె</li>
+                        <li>½ స్పూన్ ఆవాలు </li>
+                        <li>½ స్పూన్ పసుపు పొడి</li>
+                        <li>1 స్పూన్ ఎర్ర మిరప పొడి</li>
+                        <li>½ స్పూన్ జీలకర్ర పొడి</li>
+                        <li>రుచికి ఉప్పు</li>
+                        <li>2 టేబుల్ స్పూన్లు తురిమిన కొబ్బరి</li>
+                        <li>కరివేపాకు లేదా కొత్తిమీర ఆకులు </li>
+                    </ul>
+                    <img src="../../pics/dondakay.jpg" alt="">
+                </div>
+                <div class="process">
+                    <ol>
+                        <li>మీడియం వేడి మీద పాన్ లో నూనె వేడి చేయండి. ఆవాలు వేసి (ఉపయోగిస్తే) మరియు వాటిని చిందరవందరగా ఉంచండి</li>
+                        <li>దొండకాయ ముక్కలు వేసి 3-4 నిమిషాలు వేగించండి, అప్పుడప్పుడు కదిలించు.</li>
+                        <li>పసుపు, కారం, జీలకర్ర, ఉప్పు వేసి కలపాలి. బాగా కలపండి, తద్వారా సుగంధ ద్రవ్యాలు దొండకాయను సమానంగా కోట్ చేయండి. </li>
+                        <li>12-15 నిమిషాలు తక్కువ-మీడియం వేడి మీద ఉడికించాలి, అప్పుడప్పుడు కదిలించు, అది మంచిగా పెళుసైన మరియు బంగారు రంగులోకి మారుతుంది</li>
+                        <li>తురిమిన కొబ్బరి లేదా కొత్తిమీర ఆకులతో గార్నిష్ చేసి వేడిగా సర్వ్ చేయండి! </li>
+                    </ol>
+                </div>
+                <div class="box">
+                    <input class="tel_search" value=" అదనపు క్రిస్పినెస్ కోసం, పాన్ కవర్ చేయకుండా తక్కువ వేడి మీద వేయించండి">
+                    <button>చిట్కా</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function flipcard(){
+            document.getElementById("card").classList.toggle('flipped');
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/chutnys/sesam.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <h2 class="english">Telugu Ruchulu</h2>
+        <h2>తెలుగు రుచులు</h2>
+    </div>
+    <div class="headding">
+        <h3 class="english">Sesamhutny/</h3>
+        <h2>నువ్వులుచట్నీ</h2>
+        <a href="../../menue/chutnys.html" class="btn"><button class="H">Home Page</button></a>
+    </div>
+    <button class="flip-button" onclick="flipcard()">Click to change the language<br>తెలుగు కోసం క్లిక్ చేయండి</button>
+    <div class="container">
+        <div class="card" id="card">
+            <div class="front">
+                <div class="ingrediants">
+                    <h2>Ingredients:</h2>
+                    <ul>
+                        <li>¼ cup sesame seeds (white or black)</li>
+                        <li>2 tbsp grated coconut (optional, for richness)</li>
+                        <li>2 dried red chilies (adjust to taste)</li>
+                        <li>1 small garlic clove</li>
+                        <li>½ tsp cumin seeds</li>
+                        <li>½ tsp salt (or as needed)</li>
+                        <li>1 tsp tamarind pulp (or lemon juice for tanginess)</li>
+                        <li>Water as neede</li>
+                    </ul>
+                    <img src="../../pics/nuvvulu.jpg" alt="">
+                </div>
+                <div class="process">
+                    <h2>Instructions:</h2>
+                    <ol>
+                        <li>Dry roast sesame seeds on low heat until they turn golden and start popping, then let them cool.</li>
+                        <li>Blend roasted sesame seeds with coconut, red chilies, garlic, cumin, salt, and tamarind, adding little water.</li>
+                        <li>Grind to a smooth or coarse paste as per your preference, adding more water if needed.</li>
+                        <li>Taste and adjust seasoning, adding more tamarind or salt if needed</li>
+                        <li>Serve with idli, dosa, or rice. It can be stored in the fridge for 2-3 days.</li>
+                    </ol>
+                </div>
+                <div class="box">
+                    <input class="search" value="For extra flavor, add a tempering of mustard seeds, curry leaves, and a pinch of hing in hot oil before serving">
+                    <button>Tip</button>
+                </div>
+            </div>
+            <div class="back">
+                <div class="ingrediants">
+                    <h2> కావలసినవిః</h2>
+                    <ul>
+                        <li>¼ కప్పు నువ్వులు (తెలుపు లేదా నలుపు) </li>
+                        <li>2 టేబుల్ స్పూన్లు తురిమిన కొబ్బరి (ఐచ్ఛికం, గొప్పదనం కోసం)</li>
+                        <li>2 ఎండిన ఎర్ర మిరపకాయలు (రుచికి సర్దుబాటు చేయండి)</li>
+                        <li>1 చిన్న వెల్లుల్లి,లవంగం</li>
+                        <li>½ స్పూన్ జీలకర్ర గింజలు</li>
+                        <li>½ టీస్పూన్ ఉప్పు (లేదా అవసరమైన విధంగా) </li>
+                        <li>1 టీస్పూన్ చింతపండు గుజ్జు (లేదా సున్నితత్వం కోసం నిమ్మరసం) </li>
+                        <li>అవసరమైనంత నీరు</li>
+                    </ul>
+                    <img src="../../pics/nuvvulu.jpg" alt="">
+                </div>
+                <div class="process">
+                    <ol>
+                        <li>నువ్వులు బంగారు రంగులోకి మారే వరకు తక్కువ వేడి మీద వేయించి, ఆపై వాటిని చల్లబరచండి</li>
+                        <li>.కొబ్బరి, ఎర్ర మిరపకాయలు, వెల్లుల్లి, జీలకర్ర, ఉప్పు మరియు చింతపండుతో కాల్చిన నువ్వులు, కొద్దిగా నీరు జోడించడం</li>
+                        <li>.మీ అభీష్టానుసారం మెత్తగా లేదా ముతక పేస్ట్‌గా గ్రైండ్ చేయండి, అవసరమైతే మరింత నీరు జోడించండి.</li>
+                        <li>మసాలాను రుచి మరియు సర్దుబాటు చేయండి, అవసరమైతే మరింత చింతపండు లేదా ఉప్పు జోడించండి</li>
+                        <li>ఇడ్లీ, దోస లేదా అన్నంతో సర్వ్ చేయండి. ఇది 2-3 రోజులు ఫ్రిజ్‌లో నిల్వ చేయబడుతుంది. </li>
+                    </ol>
+                </div>
+                <div class="box">
+                    <input class="tel_search" value="అదనపు రుచి కోసం, వడ్డించే ముందు వేడి నూనెలో ఆవాలు, కరివేపాకు మరియు చిటికెడు హింగ్ జోడించండి.">
+                    <button>చిట్కా</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function flipcard(){
+            document.getElementById("card").classList.toggle('flipped');
+        }
+    </script>
+</body>
+</html>

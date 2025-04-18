@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/fries/bendakay.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <h2 class="english">Telugu Ruchulu</h2>
+        <h2>తెలుగు రుచులు</h2>
+    </div>
+    <div class="headding">
+        <h3 class="english">ladiesFinger /</h3>
+        <h2>బెండకాయ</h2>
+        <a href="../../menue/fries.html" class="btn"><button class="H">Home Page</button></a>
+    </div>
+    <button class="flip-button" onclick="flipcard()">Click to change the language<br>తెలుగు కోసం క్లిక్ చేయండి</button>
+    <div class="container">
+        <div class="card" id="card">
+            <div class="front">
+                <div class="ingrediants">
+                    <h2>Ingredients:</h2>
+                    <ul>
+                        <li>250g ladies finger (okra), washed & chopped</li>
+                        <li>2 tbsp oil</li>
+                        <li>½ tsp mustard seeds (optional)</li>
+                        <li>½ tsp turmeric powder</li>
+                        <li>1 tsp red chili powder (adjust to taste)</li>
+                        <li>½ tsp cumin powder (optional)</li>
+                        <li>Salt to taste</li>
+                        <li>Curry leaves or coriander leaves (for garnish, optional)</li>
+                    </ul>
+                    <img src="../../pics/bendakay.jpg" alt="">
+                </div>
+                <div class="process">
+                    <h2>Instructions:</h2>
+                    <ol>
+                        <li>Heat oil in a pan on medium heat. Add mustard seeds (if using) and let them splutter.</li>
+                        <li>Add chopped ladies finger and sauté for 3-4 minutes without covering the pan.</li>
+                        <li>Add turmeric, chili powder, cumin powder, and salt. Stir well to coat the okra evenly.</li>
+                        <li>4. Cook on low-medium heat for 10-12 minutes, stirring occasionally, until the okra becomes crispy and non-sticky.
+                        </li>
+                        <li>Garnish with curry leaves or coriander and serve hot!</li>
+                    </ol>
+                </div>
+                <div class="box">
+                    <input class="search" value="To prevent stickiness, wipe the okra dry before chopping and add a few drops of lemon juice while frying.">
+                    <button>Tip</button>
+                </div>
+            </div>
+            <div class="back">
+                <div class="ingrediants">
+                    <h2> కావలసినవిః</h2>
+                    <ul>
+                        <li>250గ్రాబెండకాయ కడిగి, తరిగినవి</li>
+                        <li>2 టేబుల్ స్పూన్లు నూనె ½</li>
+                        <li>½ స్పూన్ ఆవాలు</li>
+                        <li>½ స్పూన్ పసుపు పొడి</li>
+                        <li>1 స్పూన్ ఎర్ర మిరప పొడి</li>
+                        <li> ½ స్పూన్ జీలకర్ర పొడి</li>
+                        <li>రుచికి ఉప్పు</li>
+                        <li>కరివేపాకు లేదా కొత్తిమీర ఆకులు</li>
+                    </ul>
+                    <img src="../../pics/bendakay.jpg" alt="">
+                </div>
+                <div class="process">
+                    <ol>
+                        <li>మీడియం వేడి మీద పాన్ లో నూనె వేడి చేయండి. ఆవాలు వేసి (ఉపయోగిస్తే) మరియు వాటిని చిందరవందరగా ఉంచండి</li>
+                        <li>తరిగిన బెండకాయ వేసి, పాన్ కవర్ చేయకుండా 3-4 నిమిషాలు వేయించాలి</li>
+                        <li>పసుపు, కారం, జీలకర్ర, ఉప్పు వేసి కలపాలి. </li>
+                        <li>ఓక్రా క్రిస్పీగా మరియు జిగటగా మారే వరకు, అప్పుడప్పుడు కదిలిస్తూ 10-12 నిమిషాలు తక్కువ-మీడియం వేడి మీద ఉడికించాలి.</li>
+                        <li>కరివేపాకు లేదా కొత్తిమీరతో గార్నిష్ చేసి వేడిగా సర్వ్ చేయండి!</li>
+                    </ol>
+                </div>
+                <div class="box">
+                    <input class="tel_search" value="అతుక్కొని ఉండకుండా ఉండాలంటే కవేయించేటప్పుడు కొన్ని చుక్కల నిమ్మరసం జోడించండి.">
+                    <button>చిట్కా</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function flipcard(){
+            document.getElementById("card").classList.toggle('flipped');
+        }
+    </script>
+</body>
+</html>

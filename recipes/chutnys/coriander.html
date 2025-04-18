@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/chutnys/coriander.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <h2 class="english">Telugu Ruchulu</h2>
+        <h2>తెలుగు రుచులు</h2>
+    </div>
+    <div class="headding">
+        <h3 class="english">CorianderChutny/</h3>
+        <h2>కొత్తిమీరచట్నీ</h2>
+        <a href="../../menue/chutnys.html" class="btn"><button class="H">Home Page</button></a>
+    </div>
+    <button class="flip-button" onclick="flipcard()">Click to change the language<br>తెలుగు కోసం క్లిక్ చేయండి</button>
+    <div class="container">
+        <div class="card" id="card">
+            <div class="front">
+                <div class="ingrediants">
+                    <h2>Ingredients:</h2>
+                    <ul>
+                        <li>1 cup fresh coriander leaves</li>
+                        <li>1 green chili (adjust to taste)</li>
+                        <li>1-inch ginger</li>
+                        <li>2 tbsp lemon juice></li>
+                        <li>½ tsp cumin powder</li>
+                        <li>½ tsp black salt (or regular salt)</li>
+                        <li>2 tbsp curd (optional, for creaminess)</li>
+                        <li>Water as needed</li>
+                    </ul>
+                    <img src="../../pics/kottimira.jpg" alt="">
+                </div>
+                <div class="process">
+                    <h2>Instructions:</h2>
+                    <ol>
+                        <li>Wash and prep the coriander leaves properly, removing thick stems.</li>
+                        <li>Blend coriander, green chili, ginger, lemon juice, cumin powder, black salt, and curd (if using) into a smooth paste.</li>
+                        <li>Add water gradually to adjust the consistency.</li>
+                        <li>Taste and adjust seasoning if needed, adding more salt or lemon juice.</li>
+                        <li>Serve with parathas, chaats, or snacks. Store in the fridge for up to a week</li>
+                    </ol>
+                </div>
+                <div class="box">
+                    <input class="search" value="To keep the chutney fresh and green add a few ice cubes while blending">
+                    <button>Tip</button>
+                </div>
+            </div>
+            <div class="back">
+                <div class="ingrediants">
+                    <h2> కావలసినవిః</h2>
+                    <ul>
+                        <li>1 కప్పు తాజా కొత్తిమీర ఆకులు</li>
+                        <li>1 పచ్చి మిరపకాయ (రుచికి సర్దుబాటు చేయండి)</li>
+                        <li>1-అంగుళాల అల్లం</li>
+                        <li>2 టేబుల్ స్పూన్లు నిమ్మరసం </li>
+                        <li>½ స్పూన్ జీలకర్ర పొడి </li>
+                        <li>½ స్పూన్ నల్ల ఉప్పు (లేదా సాధారణ ఉప్పు) </li>
+                        <li>2 టేబుల్ స్పూన్లు పెరుగు (ఐచ్ఛికం, క్రీమ్ కోసం) </li>
+                        <li>అవసరమైనంత నీరు</li>
+                    </ul>
+                    <img src="../../pics/kottimira.jpg" alt="">
+                </div>
+                <div class="process">
+                    <ol>
+                        <li>.కొత్తిమీర ఆకులను బాగా కడిగి, మందపాటి కాడలను తొలగించండి</li>
+                        <li>.కొత్తిమీర, పచ్చిమిర్చి, అల్లం, నిమ్మరసం, జీలకర్ర పొడి, నల్ల ఉప్పు మరియు పెరుగు (ఉపయోగిస్తే) మెత్తని పేస్ట్‌లో కలపండి.</li>
+                        <li>స్థిరత్వాన్ని సర్దుబాటు చేయడానికి క్రమంగా నీటిని జోడించండి.</li>
+                        <li>పరాఠాలు, చాట్‌లు లేదా స్నాక్స్‌తో సర్వ్ చేయండి. ఒక వారం వరకు ఫ్రిజ్‌లో నిల్వ చేయండి.</li>
+                        <li>అవసరమైతే మసాలాను రుచి మరియు సర్దుబాటు చేయండి, ఎక్కువ ఉప్పు లేదా నిమ్మరసం జోడించండి. </li>
+                    </ol>
+                </div>
+                <div class="box">
+                    <input class="tel_search" value="చట్నీ తాజాగా మరియు ఆకుపచ్చగా ఉండటానికి, బ్లెండింగ్ చేసేటప్పుడు కొన్ని ఐస్ క్యూబ్స్ జోడించండి">
+                    <button>చిట్కా</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function flipcard(){
+            document.getElementById("card").classList.toggle('flipped');
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+const items=[
+    {id:['dosa','దోసె'],url:'../recipes/tifines/dosa.html'},
+    {id:['idli','ఇడ్లీ'],url:'../recipes/tifines/idli.html'},
+    {id:['pongal','పొంగలి'],url:'../recipes/tifines/pongal.html'},
+    {id:['poori','పూరి'],url:'../recipes/tifines/poori.html'},
+    {id:['upma','ఉప్మా'],url:'../recipes/tifines/upma.html'},
+    {id:['vada','వడ'],url:'../recipes/tifines/vada.html'},
+    {id:['cocnut','coconut chutny','కొబ్బరి'],url:'../recipes/chutnys/cocnut.html'},
+    {id:['penut','penut chutny','palli chutny','senakkaya chutny','పల్లి'],url:'../recipes/chutnys/palli.html'},
+    {id:['pudina','pudina chutny','పుదీనా'],url:'../recipes/chutnys/pudina.html'},
+    {id:['coriander','coriander chutny','కొత్తిమీర'],url:'../recipes/chutnys/coriander.html'},
+    {id:['sesam','sesam chutny','నువ్వులు'],url:'../recipes/chutnys/sesam.html'},
+    {id:['tamarind','tamarind chutny','చింతపండు'],url:'../recipes/chutnys/tamarind.html'},
+    {id:['brinjal curry','vonkay curry','vonkay fry',' వంకాయ'],url:'../recipes/fries/brinjal.html'},
+    {id:['ladys finger curry','bendakay curry','bendakay fry','బెండకాయ'],url:'../recipes/fries/bendakay.html'},
+    {id:['potato fry','aloo fry','ullagadda fry','bangala dumpa fry',' బంగాళదుంప'],url:'../recipes/fries/potato.html'},
+    {id:['raw banana fry','aratikaya fry','అరటికాయ'],url:'../recipes/fries/rawbanana.html'},
+    {id:['bittergaurd fry','bitter gaurd fry','kakarkaya fry','కాకరికాయ'],url:'../recipes/fries/bitter.html'},
+    {id:['ivi gaurd fry','ivigaurd fry','dondakay fry','dondakaya fry','దొండకాయ'],url:'../recipes/fries/dondakay.html'},
+    {id:['mango pickle','mango uragay','mamidikay pachhadi','mamidi uragay','mamidikaya uragaya','మామిడి'],url:'../recipes/pickles/mango.html'},
+    {id:['lemon pickle','nimmakaya pickle','nimmakaya pachhadi','nimmakaya uragay','నిమ్మకాయ'],url:'../recipes/pickles/lemon.html'},
+    {id:['gongura picke','gongura uragay','gongura pachhadi','గోంగుర'],url:'../recipes/pickles/gongura.html'},
+    {id:['amla uragay','amla pickle','amla pchhadi','usikay uragay','usirikay pachhadi','ఉసిరి'],url:'../recipes/pickles/usiri.html'},
+    {id:['chilli pickle','mirapakay uragay','mirapakay pachhadi','మిర్చి'],url:'../recipes/pickles/mirchi.html'},
+    {id:['tomato pickle','tomato uragay','tomato pachhadi','టమాట'],url:'../recipes/pickles/tomato.html'},
+    {id:['karjikayalu','karjikaya','కర్జికాయలు'],url:'../recipes/sweets/karjikay.html'},
+    {id:['ariselu','attirasalu','arisa','arisa','atirasa','అరిసెలు','అత్తిరాసాలు'],url:'../recipes/sweets/attirasa.html'},
+    {id:['laddu','boondi laddu','లడ్డు'],url:'../recipes/sweets/laddo.html'},
+    {id:['rava laddu','రవలడ్లు'],url:'../recipes/sweets/ravaladdu.html'},
+    {id:['sunnunda','sunnundalu','సున్నుండలు'],url:'../recipes/sweets/sunnunda.html'},
+    {id:['gavvalu','గవ్వలు'],url:'../recipes/sweets/gavvalu.html'},
+    {id:['mango pappu','mamidikaya pappu','మామిడికాయ పప్పు'],url:'../recipes/meals/pappu/mango.html'},
+    {id:['spinach pappu','palakura pappu','పాలకూర పప్పు'],url:'../recipes/meals/pappu/spinach.html'},
+    {id:['tomato pappu','టమాటో పప్పు'],url:'../recipes/meals/pappu/tomato.html'},
+    {id:['pappucharu','పప్పుచారు'],url:'../recipes/meals/rasam/pappur.html'},
+    {id:['miriyala rasam','miriyala charu','మిరియాల రసం'],url:'../recipes/meals/rasam/pepperr.html'},
+    {id:['tomato rasam','tomato charu',' టమాట రసం'],url:'../recipes/meals/rasam/tomator.html'},
+    {id:['munakkaya sambar','drumstic sambar','మునక్కాయ'],url:'../recipes/meals/sambar/drumstick.html'},
+    {id:['radish sambar','mulangi sambar','ముల్లంగి'],url:'../recipes/meals/sambar/mix.html'},
+    {id:['mix vegitable sambar','మిక్స్ వెజిటబుల్'],url:'../recipes/meals/sambar/radish.html'},
+    {id:['pappu','పప్పు'],url:'../menue/meals.html'},
+    {id:['rasam','charu','చారు','రసం'],url:'../menue/meals.html'},
+    {id:['sambar','సాంబారు'],url:'../menue/meals.html'},
+    {id:['badam halwa','బాదం హల్వా'],url:'../recipes/prasadams/halwa/badamh.html'},
+    {id:['carrot halwa','క్యారెట్ హల్వా'],url:'../recipes/prasadams/halwa/carroth.html'},
+    {id:['pineaple halwa','పైనాపిల్ హల్వా'],url:'../recipes/prasadams/halwa/pineappleh.html'},
+    {id:['dryfruits halwa','డ్రై ఫ్రూట్స్ హోలిగ'],url:'../recipes/prasadams/holiga/dryfruitsh.html'},
+    {id:['kova holiga','kova poli','kova bobbattu','కోవా హోలిగ'],url:'../recipes/prasadams/holiga/jagaryh.html'},
+    {id:['bellam holiga','bellam poli','bellam bobbattu','బెల్లం హోలిగ'],url:'../recipes/prasadams/holiga/kovah.html'},
+    {id:['jagary payasam','bellam payasam','బెల్లం పాయసం'],url:'../recipes/prasadams/payasam/bellamp.html'},
+    {id:['sabudana payasam','saggubiyyam payasam','సగ్గుబియ్యం పాయసం'],url:'../recipes/prasadams/payasam/sabondap.html'},
+    {id:['semiya payasam','vermiselli payasam','సేమియా పాయసం'],url:'../recipes/prasadams/payasam/semiyap.html'},
+    {id:['raw banana bajji','aratikaya bajji','aratikay bajji','అరటికాయ బజ్జీ'],url:'../recipes/snaks/bajji/bananab.html'},
+    {id:['brinjal bajji','vankay bajji','vonkay bajji','వంకాయ బజ్జీ'],url:'../recipes/snaks/bajji/brinjalb.html'},
+    {id:['potato bajji','aloo bajji','ఆలూ బజ్జీ'],url:'../recipes/snaks/bajji/mirchib.html'},
+    {id:['mirchi bajji','chilli bajji','mirapakay bajji','మిర్చి బజ్జీ'],url:'../recipes/snaks/bajji/tomatob.html'},
+    {id:['aloo samosa','potato samosa','ఆలూ సమోసా'],url:'../recipes/snaks/samosa/aloos.html'},
+    {id:['onion samosa','yeragadda samosa','ullipay samosa','ఉల్లిపాయ సమోసా'],url:'../recipes/snaks/samosa/onions.html'},
+    {id:['sweetcorn samosa','స్వీట్ కార్న్ సమోసా'],url:'../recipes/snaks/samosa/sweetcorns.html'},
+    {id:['alasanda wada','alasanda vada','అలసంద వడ'],url:'../recipes/snaks/wada/alasandaw.html'},
+    {id:['masala wada','masala vada','మసాలా వడ'],url:'../recipes/snaks/wada/masalaw.html'},
+    {id:['uddi wada','uddi vada','/ఉధి వడ'],url:'../recipes/snaks/wada/uddiw.html'},
+];
+function searchItem(){
+    let searchInput=document.getElementById("searchBox").value.toLowerCase();
+    let message=document.getElementById('message');
+    let foundItem=items.find(items=>items.id.includes(searchInput));
+    if(foundItem){
+        window.location.href=foundItem.url;
+    }
+    else{
+        message.textContent='sorry';
+        message.style.color='red';
+    }
+}

@@ -1,0 +1,105 @@
+body{
+    gap: 0;
+}
+.header{
+    background-color: rgb(59, 12, 59);
+    color: antiquewhite;
+    font-family: "Caveat", serif;
+    text-align: center;
+    margin-bottom: 0%;
+}
+.english{
+    font-weight: 20px;
+    font-size: 30px;
+}.headding{
+    display: flex;
+    align-items: center;
+    padding-left: 45%;
+    background-color: darkslategrey;
+    color: wheat;
+    font-family: "Caveat", serif;
+    text-align: center;
+    margin-bottom: 0%;
+}
+.items,ul,li{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+}
+.items{
+    background-image: url(../../pics/mayabajar.jpeg);
+    background-size: cover;
+}
+#mango{
+    background-image: url(../../pics/mango.jpeg);
+    background-size: cover;
+    padding: 100px;
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+}    
+#lemon{
+    background-image: url(../../pics/lemon.jpg);
+    background-size: cover;
+    padding: 100px;
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
+#gongura{
+    background-image: url(../../pics/gongura1.jpeg);
+    background-size: cover;
+    padding: 100px;
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
+#amla{
+    background-image: url(../../pics/amla.jpg);
+    background-size: cover;
+    padding: 100px;
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
+#chilli{
+    background-image: url(../../pics/mirch.jpeg);
+    background-size: cover;
+    padding: 100px;
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+
+
+}
+#tomato{
+    background-image: url(../../pics/tomato.jpg);
+    background-size: cover;
+    padding: 100px;
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: "Caveat", serif;
+    background: white;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px;
+}
+a:hover{
+    background-color: rgb(190, 186, 186);
+}
+span{
+    font-size: 26px;
+}
+.btn{
+    margin-left: 50%;
+}
+button{
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background: none;
+}

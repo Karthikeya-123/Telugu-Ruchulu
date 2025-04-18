@@ -1,0 +1,116 @@
+body{
+    gap: 0;
+}
+.header{
+    background-color: rgb(59, 12, 59);
+    color: antiquewhite;
+    font-family: "Caveat", serif;
+    text-align: center;
+    margin-bottom: 0%;
+}
+.english{
+    font-weight: 20px;
+    font-size: 30px;
+}.headding{
+    display: flex;
+    align-items: center;
+    padding-left: 45%;
+    background-color: darkslategrey;
+    color: wheat;
+    font-family: "Caveat", serif;
+    text-align: center;
+    margin-bottom: 0%;
+}
+.items,ul,li{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    padding-left: 100px;
+}
+.items{
+    background-image: url(../../pics/mayabajar.jpeg);
+    background-size: cover;
+}
+#coconut{
+    background-image: url(../../pics/coconut.jpg);
+    background-size: cover;
+    padding:70px;
+    margin-right: 100px;
+   margin-top: 30px;
+   margin-bottom: 20px;
+   border-radius: 20px;
+}    
+#penut{
+    background-image:url(../../pics/palli.jpeg);
+    background-size: cover;
+    padding: 70px;
+    margin-right: 100px;
+    margin-top: 30px;
+   border-radius: 20px;
+
+}
+#ginger{
+    background-image: url(../../pics/pudina.jpg);
+    background-size: cover;
+    padding: 70px;
+    margin-right: 100px;
+    margin-top: 30px;
+   margin-bottom: 20px;
+
+   border-radius: 20px;
+
+}
+#coriander{
+    background-image: url(../../pics/kottimira.jpg);
+    background-size: cover;
+    padding: 70px;
+    margin-right: 100px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+   border-radius: 20px;
+
+}
+#sesam{
+    background-image: url(../../pics/nuvvulu.jpg);
+    background-size: cover;
+    padding: 70px;
+    margin-right: 100px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+   border-radius: 20px;
+
+}
+#tomato{
+    background-image: url(../../pics/allamchutny.jpg);
+    background-size: cover;
+    padding: 70px;
+    margin-right: 100px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+   border-radius: 20px;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: "Caveat", serif;
+    background: white;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px;
+
+}
+a:hover{
+    background-color: rgb(190, 186, 186);
+}
+span{
+    font-size: 26px;
+}
+.btn{
+    margin-left: 50%;
+}
+button{
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background: none;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../../css/prasadams/halwas/badam.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <h2 class="english">Telugu Ruchulu</h2>
+        <h2>తెలుగు రుచులు</h2>
+    </div>
+    <div class="headding">
+        <h3 class="english">BaadamHalwa/</h3>
+        <h2>బాదంహల్వా</h2>
+        <a href="../../../menue/prasadam.html" class="btn"><button class="H">Home Page</button></a>
+    </div>
+    <button class="flip-button" onclick="flipcard()">Click to change the language<br>తెలుగు కోసం క్లిక్ చేయండి</button>
+    <div class="container">
+        <div class="card" id="card">
+            <div class="front">
+                <div class="ingrediants">
+                    <h2>Ingredients:</h2>
+                    <ul>
+                        <li>1 cup almonds (badam)</li>
+                        <li>¾ cup sugar (adjust to taste)</li>
+                        <li>½ cup milk</li>
+                        <li>¼ cup ghee (clarified butter)</li>
+                        <li>¼ tsp cardamom powder</li>
+                        <li>8-10 saffron strands (optional)</li>
+                        <li>10-12 chopped almonds (for garnish)</li>
+                    </ul>
+                    <img src="../../../pics/badam.jpg" alt="">
+                </div>
+                <div class="process">
+                    <h2>Instructions:</h2>
+                    <ol>
+                        <li><h3>Soak & Blend Almonds – </h3>Soak almonds in hot water for 1 hour, peel the skin, and grind them into a smooth paste using milk</li>
+                        <li><h3>Cook the Paste –</h3> Heat ghee in a pan, add the almond paste, and cook on low heat while stirring continuously.</li>
+                        <li><h3>Add Sugar & Flavoring – </h3>Once the paste thickens slightly, add sugar, saffron strands, and cardamom powder. Mix well.</li>
+                        <li><h3>Cook Until Ghee Separates -</h3> Continue stirring until the halwa thickens and the ghee starts to release from the sides</li>
+                        <li><h3>Garnish & Serve –</h3>Add chopped almonds on top and serve warm.</li>
+                    </ol>
+                </div>
+                <div class="box">
+                    <input class="search" value="For extra richness, add a few tablespoons of condensed milk or khoya while cooking.">
+                    <button>Tip</button>
+                </div>
+            </div>
+            <div class="back">
+                <div class="ingrediants">
+                    <h2> కావలసినవిః</h2>
+                    <ul>
+                        <li>కప్పు బాదం (బాదం) </li>
+                        <li>¾ కప్ చక్కెర (రుచికి సర్దుబాటు చేయండి)</li>
+                        <li>½ కప్పు పాలు</li>
+                        <li>¼ కప్పు నెయ్యి (స్పష్టమైన వెన్న)</li>
+                        <li>¼ స్పూన్ యాలకుల పొడి </li>
+                        <li>8-10 కుంకుమపువ్వు </li>
+                        <li>10-12 తరిగిన బాదంపప్పులు</li>
+                    </ul>
+                    <img src="../../../pics/badam.jpg" alt="">
+                </div>
+                <div class="process">
+                    <ol>
+                       <li><h3>బాదంపప్పులను నానబెట్టి బ్లెండ్ చేయండి -</h3>బాదంపప్పును వేడి నీటిలో 1 గంట నానబెట్టి, చర్మాన్ని తీసి, పాలను ఉపయోగించి మెత్తని పేస్ట్‌గా రుబ్బుకోవాలి. </li>
+                       <li><h3>పేస్ట్ ఉడికించాలి - </h3> ఒక పాన్ లో నెయ్యి వేడి, బాదం పేస్ట్ జోడించండి, మరియు నిరంతరంగా గందరగోళాన్ని తక్కువ వేడి మీద ఉడికించాలి</li>
+                       <li><h3>షుగర్ & ఫ్లేవరింగ్ జోడించండి -</h3>పేస్ట్ కొద్దిగా చిక్కగా మారిన తర్వాత, పంచదార, కుంకుమపువ్వు తంతువులు మరియు యాలకుల పొడిని జోడించండి. బాగా కలపాలి.</li>
+                       <li><h3>నెయ్యి విడిపోయే వరకు ఉడికించాలి - </h3>హల్వా చిక్కబడే వరకు మరియు నెయ్యి పక్కల నుండి విడుదలయ్యే వరకు కదిలించు</li>
+                       <li><h3> గార్నిష్ & సర్వ్ –</h3>పైన తరిగిన బాదంపప్పు వేసి వెచ్చగా సర్వ్ చేయాలి.</li>
+                    </ol>
+                </div>
+                <div class="box">
+                    <input class="tel_search" value="అదనపు రిచ్‌నెస్ కోసం, వంట చేసేటప్పుడు కొన్ని టేబుల్‌స్పూన్ల ఘనీకృత పాలు లేదా ఖోయా జోడించండి">
+                    <button>చిట్కా</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function flipcard(){
+            document.getElementById("card").classList.toggle('flipped');
+        }
+    </script>
+</body>
+</html>

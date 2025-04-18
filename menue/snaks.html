@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/items/snaks.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <h2 class="english">Telugu Ruchulu</h2>
+        <h2>తెలుగు రుచులు</h2>
+    </div>
+    <div class="headding">
+        <h3 class="english">Snaks/</h3>
+        <h2>స్నాక్స్</h2>
+        <a href="menu.html" class="btn"><button>Home Page</button></a>
+    </div>
+    <div class="items">
+        <ul>
+           <li>
+            <div class="bajji">
+                <h2>Bajjilu / బజ్జీలు</h2>
+                  <select id="dropdown" onchange="bajji(this)">
+                    <option value="pappu_types">Typs of bajji  / </option>
+                    <option value="../recipes/snaks/bajji/bananab.html">Banana Bajji/అరటికాయ బజ్జీ</option>
+                    <option value="../recipes/snaks/bajji/brinjalb.html">Brinjal Bajji/వంకాయ బజ్జీ</option>
+                    <option value="../recipes/snaks/bajji/tomatob.html">Tomato Bajji/ఆలూ బజ్జీ</option>
+                    <option value="../recipes/snaks/bajji/mirchib.html">Mirchi Bajji/మిర్చి బజ్జీ</option>
+                 </select>
+            </div>
+           </li>
+           <li>
+            <div class="samosa">
+                <h2>Samosa/సమోసా</h2>
+            <select id="dropdown" onchange="samosa(this)">
+                <option value="Samosa_typs">Samosa Typs</option>
+                <option value="../recipes/snaks/samosa/aloos.html">Aloo Samosa/ఆలూ సమోసా</option>
+                <option value="../recipes/snaks/samosa/onions.html">Onion Samosa/ఉల్లిపాయ సమోసా</option>
+                <option value="../recipes/snaks/samosa/sweetcorns.html">SweetCorn/స్వీట్ కార్న్ సమోసా</option>
+            </select>
+            </div>
+           </li>
+           <li>
+            <div class="wada">
+                <h2>Wada/వడలు</h2>
+            <select id="dropdown" onchange="wada(this)">
+                <option value="wada_typs">Wada Typs</option>
+                <option value="../recipes/snaks/wada/alasandaw.html">Alasanda Wada/అలసంద వడ</option>
+                <option value="../recipes/snaks/wada/masalaw.html">Masala Wada/మసాలా వడ</option>
+                <option value="../recipes/snaks/wada/uddiw.html">Uddi Wada/ఉధి వడ</option>
+            </select>
+            </div>
+           </li>
+        </ul>
+    </div>
+    <script>
+        function bajji(select){
+            let url=select.value;
+            if(url){
+                window.location.href=url;
+            }
+        }
+        function samosa(select){
+            let url=select.value;
+            if(url){
+                window.location.href=url;
+            }
+        }
+        function wada(select){
+            let url=select.value;
+            if(url){
+                window.location.href=url;
+            }
+        }
+    </script>
+</body>
+</html>
